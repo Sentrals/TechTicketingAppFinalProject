@@ -11,9 +11,11 @@
 
     <h1 style="font-size: 35px;">Main Categories</h1>
     <br><br>
-    <form action="/action_page.php">
-        <label for="Problem">Main Categories</label>
-        <select name="Problem" id="Problem">
+
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="Problem">Main Categories</label>
+            <select name="Problem" id="Problem">
             <option vaule="Hardware">Hardware</option>
             <option vaule="Software">Software</option>
             <option vaule="Smartboard">Smartboard</option>
@@ -23,25 +25,24 @@
             <option vaule="System">Operating System</option>
             <option vaule="Printer">Printer</option>
             <option vaule="Other Problem">Other</option>
-        </select>
-    </form>
+           </select>
+        </form>
+    </div>
 
     <br><br>
-    
-    <form action="/action_page.php">
-        <label for="Area">Affected:</label>
-        <select name="Area" id="Area">
-            <option vaule="Classroom">Whole Classroom</option>
-            <option vaule="Teacher">Teacher Station</option>
-            <option vaule="Laptop">Teacher Laptop</option>
-            <option vaule="Less">Three or less student computers</option>
-            <option vaule="More">More than three students computers</option>
-            <option vaule="Other Affected">Other equipment or area affected</option>
-        </select>
-    </form>
-
-
-
-    <script src="index.js"></script>
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="Area">Affected:</label>
+            <select name="Area" id="Area">
+                <option vaule="Classroom">Whole Classroom</option>
+                <option vaule="Teacher">Teacher Station</option>
+                <option vaule="Laptop">Teacher Laptop</option>
+                <option vaule="Less">Three or less student computers</option>
+                <option vaule="More">More than three students computers</option>
+                <option vaule="Other Affected">Other equipment or area affected</option>
+            </select>
+        </form>
+    </div>
 </body>
+<script src="index.js"></script>
 </html>
