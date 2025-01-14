@@ -3,11 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <title>Tech Ticketing App</title>
+    <title>Ticketing Report</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <h2>Tech Ticketing</h2>
+
+    <h1 style="font-size: 35px;">Main Categories</h1>
+    <br><br>
+    <form action="/action_page.php">
+        <label for="Problem">Main Categories</label>
+        <select name="Problem" id="Problem">
+            <option vaule="Hardware">Hardware</option>
+            <option vaule="Software">Software</option>
+            <option vaule="Smartboard">Smartboard</option>
+            <option vaule="Wires">Wires</option>
+            <option vaule="KeyboardMouse">Keyboard and Mouse</option>
+            <option vaule="Internet">Internet Connection</option>
+            <option vaule="System">Operating System</option>
+            <option vaule="Printer">Printer</option>
+            <option vaule="Other Problem">Other</option>
+        </select>
+    </form>
+
+    <br><br>
     
+    <form action="/action_page.php">
+        <label for="Area">Affected:</label>
+        <select name="Area" id="Area">
+            <option vaule="Classroom">Whole Classroom</option>
+            <option vaule="Teacher">Teacher Station</option>
+            <option vaule="Laptop">Teacher Laptop</option>
+            <option vaule="Less">Three or less student computers</option>
+            <option vaule="More">More than three students computers</option>
+            <option vaule="Other Affected">Other equipment or area affected</option>
+        </select>
+    </form>
+
+
+
+    <script src="index.js"></script>
 </body>
-<script src="index.js"></script>
 </html>
