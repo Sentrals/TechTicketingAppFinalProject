@@ -9,12 +9,12 @@
 <body>
     <h2>Tech Ticketing</h2>
 
-    <h1 style="font-size: 35px;">Main Categories</h1>
+    <h1 style="font-size: 35px;">For Brooklyn Tech</h1>
     <br><br>
 
     <div class="container">
         <form action="/action_page.php">
-            <label for="Problem">Main Categories</label>
+            <label for="Problem">What Happened?</label>
             <select name="Problem" id="Problem">
             <option vaule="Hardware">Hardware</option>
             <option vaule="Software">Software</option>
@@ -32,7 +32,7 @@
     <br><br>
     <div class="container">
         <form action="/action_page.php">
-            <label for="Area">Affected:</label>
+            <label for="Area">Who or What did it affect?:</label>
             <select name="Area" id="Area">
                 <option vaule="Classroom">Whole Classroom</option>
                 <option vaule="Teacher">Teacher Station</option>
@@ -43,6 +43,21 @@
             </select>
         </form>
     </div>
+
+    <br><br>
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">What's Broken?:</label>
+            <input type="text" id="fname" name="fname">
+    </div>
+
+    <br><br>
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">What have you tried?:</label>
+            <input type="text" id="fname" name="fname">
+    </div>
+
 </body>
 <script src="index.js"></script>
 </html>
