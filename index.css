@@ -52,3 +52,7 @@ input {
 .increment {
     background-color: green;
 }
+
+label{
+    font-size: 20px;
+}
